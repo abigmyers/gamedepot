@@ -72,9 +72,13 @@ function loopGame() {
     if (tail > 30) {
         const hrefs = [
             "../rockpaperscissors/rps.html",
+            "../snake/snake.html",
+            "../rockpaperscissorscursed/rpsc.html",
+            "../tictactoe/ttt.html",
+            "../tictactoecursed/tttc.html",
             "../rickroll/rick.html",
             "../clickthespot/clickthespot.html",
-            "../rockpaperscissorscursed/rpsc.html"
+            "../bouncingball.html"
         ];
 
         let randomNumber = Math.floor(Math.random() * hrefs.length);
