@@ -5,7 +5,7 @@ const addMarker = (id) => {
     if(board[id] == 0){
         board[id] = 1;
 
-        document.getElementById(id).src = "x.png";
+        document.getElementById(id).src = "cursedX.png";
 
         if(testForEnd()) {
             if(testForWin() == 1){
@@ -37,7 +37,7 @@ const computerMove = () => {
         if(board[index] == 0){
             board[index] = 2;
             moved = true;
-            document.getElementById(index).src = "o.png";
+            document.getElementById(index).src = "cursedO.png";
 
             if(testForWin() == 2) {
                 displayLoss();
@@ -95,7 +95,7 @@ const newGame = () => {
         "../rockpaperscissors/rps.html",
         "../snake/snake.html",
         "../rockpaperscissorscursed/rpsc.html",
-        "../tictactoecursed/tttc.html",
+        "../tictactoe/ttt.html",
         "../snakecursed/snakec.html",
         "../rickroll/rick.html",
         "../clickthespot/clickthespot.html",
@@ -103,7 +103,9 @@ const newGame = () => {
     ];
 
     let randomNumber = Math.floor(Math.random() * hrefs.length);
+    console.log(randomNumber);
     var nextGame = hrefs[randomNumber];
+    console.log(nextGame);
 
     window.location.href = nextGame;
 }
