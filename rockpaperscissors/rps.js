@@ -1,4 +1,8 @@
 const playGame = (userChoice) => {
+    document.getElementById("rock").onclick = "";
+    document.getElementById("paper").onclick = "";
+    document.getElementById("scissors").onclick = "";
+
     const computerChoices = ["rock", "paper", "scissors"];
     var computerChoice = computerChoices[Math.floor(Math.random() * 3)];
 
