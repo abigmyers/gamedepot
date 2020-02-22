@@ -2,6 +2,7 @@ let canvas;
 let context;
 let centerX;
 let centerY;
+let backgroundColor = "#d3d3d3";
 let colorFar = "#ff0000";
 let colorMidFar = "#ff005f";
 let colorMid = "#ff00ff";
@@ -10,31 +11,35 @@ let colorNear = "#0000ff";
 
 function startClick(document) {
     canvas = document.getElementById("canvas");
+    canvas.width = document.body.clientWidth;
+    canvas.height = document.body.clientHeight;
     context = canvas.getContext("2d");
     document.addEventListener('click', update);
     document.addEventListener('click', onClick);
-    centerX = Math.floor(Math.random() * canvas.clientWidth);
-    centerY = Math.floor(Math.random() * canvas.clientHeight);
+    centerX = Math.floor(Math.random() * canvas.width);
+    centerY = Math.floor(Math.random() * canvas.height);
 }
 
 function update(event) {
+    context.fillStyle = backgroundColor;
+    context.fillRect(0,0, canvas.width, canvas.height);
+
     let distX = event.clientX - centerX;
     let distY = event.clientY - centerY;
     let distance = Math.floor(Math.sqrt(distX * distX + distY * distY));
-    if (distance > 200) {
+    if (distance > 500) {
         context.fillStyle = colorFar;
-    } else if (distance > 150) {
+    } else if (distance > 250) {
         context.fillStyle = colorMidFar;
-    } else if (distance > 100) {
+    } else if (distance > 125) {
         context.fillStyle = colorMid;
-    } else if (distance > 50) {
+    } else if (distance > 75) {
         context.fillStyle = colorMidNear;
     } else {
         context.fillStyle = colorNear;
     }
 
-
-    context.fillRect(0, 0, 300, 900);
+    context.fillRect(0, 0, canvas.width, canvas.height);
 
 
 }

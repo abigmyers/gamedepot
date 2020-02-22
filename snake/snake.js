@@ -1,5 +1,5 @@
 let tileCount = 60;
-let gridSize = 10;
+let gridSize;
 let headX = 30;
 let headY = 30;
 let appleX = 40;
@@ -13,6 +13,9 @@ let context;
 
 function startGame(document) {
     canvas = document.getElementById("canvas");
+    canvas.width = document.body.clientWidth;
+    canvas.height = document.body.clientHeight;
+    gridSize = Math.min(Math.floor(canvas.width / tileCount), Math.floor(canvas.height / tileCount));
     context = canvas.getContext("2d");
     document.addEventListener("keydown", keyPush);
     setInterval(loopGame, 1000 / 20);
