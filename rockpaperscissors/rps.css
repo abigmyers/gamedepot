@@ -1,3 +1,30 @@
 body {
     background-color: lightgray;
 }
+
+#gamediv {
+    text-align: center;
+    padding-top: 200px;
+}
+
+.imgdiv {
+    padding: 60px;
+    display: inline;
+}
+
+img {
+    height: 200px;
+}
+
+img:hover {
+    cursor: pointer;
+}
+
+#computerResult {
+    text-align: center;
+    padding-top: 50px;
+}
+
+#gameResult {
+    text-align: center;
+}
