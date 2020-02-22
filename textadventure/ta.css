@@ -1,0 +1,25 @@
+body {
+    background-color: lightgray;
+}
+
+#story, .option {
+    text-align: center;
+}
+
+#story {
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+
+.optiondiv {
+    padding-top: 30px;
+}
+
+.option {
+    color: blue;
+    text-decoration: underline;
+}
+
+.option:hover {
+    cursor: pointer;
+}
