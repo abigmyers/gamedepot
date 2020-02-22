@@ -1,0 +1,44 @@
+**make oof sound on death
+
+you're walking through mtu campus and you see a gemstone glimmering in snow
+1. pick it up
+    you put it in your pocket and go to class. but when you get to fisher no one is there. something feels wrong.
+    1. go back to room and nap
+        you pack your things and walk back to your dorm. on the walk, you don't see a single person. when you wake up, there's still no one there. there will never be anyone there.
+        1. END [oof sound]
+    2. sit in your classroom anyway
+        the second you sit down a man in a suit materializes at the front of the room. he says "give me the stone."
+        1. ask "why do you want it?"
+            he says "it's the sacred gem of my people. your kind stole it and hid it here. in... michigan. give it back and you will be spared."
+            1. give it to him.
+                you pull it out of pocket and walk and hand it to him. he grins in a way that makes you uncomfortable but you leave. when you get back to your room, your roommate is waiting. you never hear from the man again, but you're grateful that everything is back to normal.
+                1. END [victory sound]
+            2. don't give it to him.
+                you fake like you're going to walk toward him with the stone, but then turn and run at the last second. you're barely to the door when you feel a sudden pain, greater than anything you've ever felt, that throws you to the ground. right before you die, you watch the man take the stone from you and leave.
+                1. END [oof sound]
+        2. ask "who are you?"
+            he says "i'm an ancient being from another planet and you have our sacred gem. give it back and you will be spared."
+            1. give it to him.
+                [same as above]
+            2. don't give it to him.
+                [same as above]
+        3. throw stone at him and run.
+            you lob the stone at him and he catches it perfectly. you sprint out the door and run back to your dorm. the man stays true to his word and spares you, but no one else. you're doomed to an eternity of solitude.
+            1. END [oof sound]
+    3. call 911
+        you hear rings, and then a shot and the phone flies out of hands. "i wouldn't do that if i were you". a man in a suit puts a strange-looking weapon away and walks toward you.
+        1. ask "who are you? what do you want?"
+            he says "i am an ancient being from another planet and you have our sacred gem. give it back and you will be spared."
+            1. give it to him
+                [same as above]
+            2. don't give it to him
+                [same as above]
+        2. throw a math textbook at him.
+            you pick up your linear algebra textbook and whip it at his head, but he catches it with just one hand. he shakes his head slowly before taking the strange weapon back out and firing it at you. you die in great pain seconds after he takes the stone from you and leaves.
+            1. END [oof sound]
+2. kick it
+    the second your foot makes contact, your body disentegrates.
+    1. END [oof sound]
+3. leave it alone
+    you walk past rock. next week you hear a story about some kid going insane, blabbing about rock. good thing you no touchy.
+    1. END [victory sound]

@@ -3,8 +3,6 @@ const playGame = (userChoice) => {
     var computerChoice = computerChoices[Math.floor(Math.random() * 3)];
     var willItHappen = Math.floor(Math.random() * 60);
 
-    console.log(willItHappen + " will i happen");
-
     resetImages("rock");
     resetImages("paper");
     resetImages("scissors");
@@ -72,9 +70,7 @@ const newGame = () => {
     ];
 
     let randomNumber = Math.floor(Math.random() * hrefs.length);
-    console.log(randomNumber);
     var nextGame = hrefs[randomNumber];
-    console.log(nextGame);
 
     window.location.href = nextGame;
 }
