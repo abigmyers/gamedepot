@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>WWH 2020</title>
+        <link rel = "stylesheet" type = "text/css" href = "rpsc.css" />
+        <script type="text/javascript" src="rpsc.js"></script>
+    </head>
+    
+    <body id="body" onload="changeBackground()">
+        <div id="gamediv">
+            <div class="imgdiv">
+                <img id="rock" src="rock.png" onclick="playGame('rock')"/>
+            </div>
+            <div class="imgdiv">
+                <img id="paper" src="paper.png" onclick="playGame('paper')"/>
+            </div>
+            <div class="imgdiv">
+                <img id="scissors" src="scissors.png" onclick="playGame('scissors')"/>
+            </div>
+        </div>
+        <h2 id="computerResult"></h2>
+        <h1 id="gameResult"></h1>
+    </body>
+</html>
