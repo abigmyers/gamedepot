@@ -1,9 +1,8 @@
-const newGame = () => {
+function next() {
     const hrefs = [
-        "./rockpaperscissors/rps.html",
-        "./snake/snake.html",
-        "./clickthespot/clickthespot.html",
-        "./rickroll/rick.html"
+        "../rockpaperscissors/rps.html",
+        "../snake/snake.html",
+        "../clickthespot/clickthespot.html"
     ];
 
     let randomNumber = Math.floor(Math.random() * hrefs.length);
