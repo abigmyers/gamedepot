@@ -49,7 +49,6 @@ const findGameResult = (userChoice, computerChoice) => {
 
 const newGame = () => {
     const hrefs = [
-        "../rockpaperscissors/rps.html",
         "../snake/snake.html"
     ];
 

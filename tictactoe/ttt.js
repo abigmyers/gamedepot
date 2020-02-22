@@ -93,8 +93,7 @@ const displayLoss = () => {
 const newGame = () => {
     const hrefs = [
         "../rockpaperscissors/rps.html",
-        "../snake/snake.html",
-        "../ttt.html"
+        "../snake/snake.html"
     ];
 
     let randomNumber = Math.floor(Math.random() * hrefs.length);

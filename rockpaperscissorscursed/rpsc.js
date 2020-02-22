@@ -67,7 +67,7 @@ const findGameResult = (userChoice, computerChoice) => {
 
 const newGame = () => {
     const hrefs = [
-        "../rockpaperscissors/rpsc.html",
+        "../rockpaperscissors/rps.html",
         "../snake/snake.html"
     ];
 
@@ -80,7 +80,7 @@ const newGame = () => {
 }
 
 const sameGame = () => {
-    window.location.href = "../rockpaperscissors/rpsc.html";
+    window.location.href = "../rockpaperscissorscursed/rpsc.html";
 }
 
 const changeBackground = () => {
