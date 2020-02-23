@@ -6,16 +6,17 @@ There are 15 games included in the website, and each one has an end condition of
 <b>The Games:</b>
 - 2048
 - Bouncing Ball
-- Bouncing Ball (special edition)
+- Bouncing Ball (<i>special edition</i>)
 - Click the Spot
 - Nonogram
 - 0h h1
 - Rock Paper Scissors
-- Rock Paper Scissors (special edition)
+- Rock Paper Scissors (<i>special edition</i>)
 - Snake
-- Snake (special edition)
+- Snake (<i>special edition</i>)
 - Sudoku
 - Text Adventure
 - Tic Tac Toe
-- Tic Tac Toe (special edition)
+- Tic Tac Toe (<i>special edition</i>)
+<br/>
 <i>+ a surprise</i>
