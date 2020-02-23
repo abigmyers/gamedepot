@@ -77,8 +77,7 @@ function loopGame() {
             "../tictactoe/ttt.html",
             "../tictactoecursed/tttc.html",
             "../rickroll/rick.html",
-            "../clickthespot/clickthespot.html",
-            "../bouncingball.html"
+            "../clickthespot/clickthespot.html"
         ];
 
         let randomNumber = Math.floor(Math.random() * hrefs.length);

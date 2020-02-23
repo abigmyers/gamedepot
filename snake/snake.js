@@ -73,9 +73,7 @@ function loopGame() {
         ];
 
         let randomNumber = Math.floor(Math.random() * hrefs.length);
-        console.log(randomNumber);
         var nextGame = hrefs[randomNumber];
-        console.log(nextGame);
 
         window.location.href = nextGame;
     }
@@ -83,22 +81,22 @@ function loopGame() {
 
 function keyPush(event) {
     switch (event.keyCode) {
-        case 37:
+        case 37: case 65:
             xVel = -1;
             yVel = 0;
             break;
 
-        case 38:
+        case 38: case 87:
             xVel = 0;
             yVel = -1;
             break;
 
-        case 39:
+        case 39: case 68:
             xVel = 1;
             yVel = 0;
             break;
 
-        case 40:
+        case 40: case 83:
             xVel = 0;
             yVel = 1;
             break;

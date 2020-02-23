@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>WWH 2020</title>
+        <link rel = "stylesheet" type = "text/css" href = "sudoku.css" />
+        <script type="text/javascript" src="sudoku.js"></script>
+    </head>
+    
+    <body onload="fillPuzzle()">
+        <table>
+            <tr>
+                <td><input class="numInput" type="text" maxlength="1" oninput="updateGrid(0, value)"/></td>
+                <td><input class="numInput" type="text" maxlength="1" oninput="updateGrid(1, value)"/></td>
+                <td><input class="numInput" type="text" maxlength="1" oninput="updateGrid(2, value)"/></td>
+                <td><input class="numInput" type="text" maxlength="1" oninput="updateGrid(3, value)"/></td>
+                <td><input class="numInput" type="text" maxlength="1" oninput="updateGrid(4, value)"/></td>
+                <td><input class="numInput" type="text" maxlength="1" oninput="updateGrid(5, value)"/></td>
+                <td><input class="numInput" type="text" maxlength="1" oninput="updateGrid(6, value)"/></td>
+                <td><input class="numInput" type="text" maxlength="1" oninput="updateGrid(7, value)"/></td>
+                <td><input class="numInput" type="text" maxlength="1" oninput="updateGrid(8, value)"/></td>
+            </tr>
+            <tr>
+                <td><input class="numInput" type="text" maxlength="1" oninput="updateGrid(9, value)"/></td>
+                <td><input class="numInput" type="text" maxlength="1" oninput="updateGrid(10, value)"/></td>
+                <td><input class="numInput" type="text" maxlength="1" oninput="updateGrid(11, value)"/></td>
+                <td><input class="numInput" type="text" maxlength="1" oninput="updateGrid(12, value)"/></td>
+                <td><input class="numInput" type="text" maxlength="1" oninput="updateGrid(13, value)"/></td>
+                <td><input class="numInput" type="text" maxlength="1" oninput="updateGrid(14, value)"/></td>
+                <td><input class="numInput" type="text" maxlength="1" oninput="updateGrid(15, value)"/></td>
+                <td><input class="numInput" type="text" maxlength="1" oninput="updateGrid(16, value)"/></td>
+                <td><input class="numInput" type="text" maxlength="1" oninput="updateGrid(17, value)"/></td>
+            </tr>
+            <tr>
+                <td><input class="numInput" type="text" maxlength="1" oninput="updateGrid(18, value)"/></td>
+                <td><input class="numInput" type="text" maxlength="1" oninput="updateGrid(19, value)"/></td>
+                <td><input class="numInput" type="text" maxlength="1" oninput="updateGrid(20, value)"/></td>
+                <td><input class="numInput" type="text" maxlength="1" oninput="updateGrid(21, value)"/></td>
+                <td><input class="numInput" type="text" maxlength="1" oninput="updateGrid(22, value)"/></td>
+                <td><input class="numInput" type="text" maxlength="1" oninput="updateGrid(23, value)"/></td>
+                <td><input class="numInput" type="text" maxlength="1" oninput="updateGrid(24, value)"/></td>
+                <td><input class="numInput" type="text" maxlength="1" oninput="updateGrid(25, value)"/></td>
+                <td><input class="numInput" type="text" maxlength="1" oninput="updateGrid(26, value)"/></td>
+            </tr>
+            <tr>
+                <td><input class="numInput" type="text" maxlength="1" oninput="updateGrid(27, value)"/></td>
+                <td><input class="numInput" type="text" maxlength="1" oninput="updateGrid(28, value)"/></td>
+                <td><input class="numInput" type="text" maxlength="1" oninput="updateGrid(29, value)"/></td>
+                <td><input class="numInput" type="text" maxlength="1" oninput="updateGrid(30, value)"/></td>
+                <td><input class="numInput" type="text" maxlength="1" oninput="updateGrid(31, value)"/></td>
+                <td><input class="numInput" type="text" maxlength="1" oninput="updateGrid(32, value)"/></td>
+                <td><input class="numInput" type="text" maxlength="1" oninput="updateGrid(33, value)"/></td>
+                <td><input class="numInput" type="text" maxlength="1" oninput="updateGrid(34, value)"/></td>
+                <td><input class="numInput" type="text" maxlength="1" oninput="updateGrid(35, value)"/></td>
+            </tr>
+            <tr>
+                <td><input class="numInput" type="text" maxlength="1" oninput="updateGrid(36, value)"/></td>
+                <td><input class="numInput" type="text" maxlength="1" oninput="updateGrid(37, value)"/></td>
+                <td><input class="numInput" type="text" maxlength="1" oninput="updateGrid(38, value)"/></td>
+                <td><input class="numInput" type="text" maxlength="1" oninput="updateGrid(39, value)"/></td>
+                <td><input class="numInput" type="text" maxlength="1" oninput="updateGrid(40, value)"/></td>
+                <td><input class="numInput" type="text" maxlength="1" oninput="updateGrid(41, value)"/></td>
+                <td><input class="numInput" type="text" maxlength="1" oninput="updateGrid(42, value)"/></td>
+                <td><input class="numInput" type="text" maxlength="1" oninput="updateGrid(43, value)"/></td>
+                <td><input class="numInput" type="text" maxlength="1" oninput="updateGrid(44, value)"/></td>
+            </tr>
+            <tr>
+                <td><input class="numInput" type="text" maxlength="1" oninput="updateGrid(45, value)"/></td>
+                <td><input class="numInput" type="text" maxlength="1" oninput="updateGrid(46, value)"/></td>
+                <td><input class="numInput" type="text" maxlength="1" oninput="updateGrid(47, value)"/></td>
+                <td><input class="numInput" type="text" maxlength="1" oninput="updateGrid(48, value)"/></td>
+                <td><input class="numInput" type="text" maxlength="1" oninput="updateGrid(49, value)"/></td>
+                <td><input class="numInput" type="text" maxlength="1" oninput="updateGrid(50, value)"/></td>
+                <td><input class="numInput" type="text" maxlength="1" oninput="updateGrid(51, value)"/></td>
+                <td><input class="numInput" type="text" maxlength="1" oninput="updateGrid(52, value)"/></td>
+                <td><input class="numInput" type="text" maxlength="1" oninput="updateGrid(53, value)"/></td>
+            </tr>
+            <tr>
+                <td><input class="numInput" type="text" maxlength="1" oninput="updateGrid(54, value)"/></td>
+                <td><input class="numInput" type="text" maxlength="1" oninput="updateGrid(55, value)"/></td>
+                <td><input class="numInput" type="text" maxlength="1" oninput="updateGrid(56, value)"/></td>
+                <td><input class="numInput" type="text" maxlength="1" oninput="updateGrid(57, value)"/></td>
+                <td><input class="numInput" type="text" maxlength="1" oninput="updateGrid(58, value)"/></td>
+                <td><input class="numInput" type="text" maxlength="1" oninput="updateGrid(59, value)"/></td>
+                <td><input class="numInput" type="text" maxlength="1" oninput="updateGrid(60, value)"/></td>
+                <td><input class="numInput" type="text" maxlength="1" oninput="updateGrid(61, value)"/></td>
+                <td><input class="numInput" type="text" maxlength="1" oninput="updateGrid(62, value)"/></td>
+            </tr>
+            <tr>
+                <td><input class="numInput" type="text" maxlength="1" oninput="updateGrid(63, value)"/></td>
+                <td><input class="numInput" type="text" maxlength="1" oninput="updateGrid(64, value)"/></td>
+                <td><input class="numInput" type="text" maxlength="1" oninput="updateGrid(65, value)"/></td>
+                <td><input class="numInput" type="text" maxlength="1" oninput="updateGrid(66, value)"/></td>
+                <td><input class="numInput" type="text" maxlength="1" oninput="updateGrid(67, value)"/></td>
+                <td><input class="numInput" type="text" maxlength="1" oninput="updateGrid(68, value)"/></td>
+                <td><input class="numInput" type="text" maxlength="1" oninput="updateGrid(69, value)"/></td>
+                <td><input class="numInput" type="text" maxlength="1" oninput="updateGrid(70, value)"/></td>
+                <td><input class="numInput" type="text" maxlength="1" oninput="updateGrid(71, value)"/></td>
+            </tr>
+            <tr>
+                <td><input class="numInput" type="text" maxlength="1" oninput="updateGrid(72, value)"/></td>
+                <td><input class="numInput" type="text" maxlength="1" oninput="updateGrid(73, value)"/></td>
+                <td><input class="numInput" type="text" maxlength="1" oninput="updateGrid(74, value)"/></td>
+                <td><input class="numInput" type="text" maxlength="1" oninput="updateGrid(75, value)"/></td>
+                <td><input class="numInput" type="text" maxlength="1" oninput="updateGrid(76, value)"/></td>
+                <td><input class="numInput" type="text" maxlength="1" oninput="updateGrid(77, value)"/></td>
+                <td><input class="numInput" type="text" maxlength="1" oninput="updateGrid(78, value)"/></td>
+                <td><input class="numInput" type="text" maxlength="1" oninput="updateGrid(79, value)"/></td>
+                <td><input class="numInput" type="text" maxlength="1" oninput="updateGrid(80, value)"/></td>
+            </tr>
+        </table>
+        <h1 id="result"></h1>
+    </body>
+</html>

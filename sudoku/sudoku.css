@@ -1,0 +1,36 @@
+table {
+    margin: 1em auto;
+    border-collapse: collapse;
+}
+td {
+    height: 60px;
+    width: 60px;
+    border: 1px solid;
+    text-align: center;
+    font-size: 24px;
+}
+
+td:first-child {
+    border-left: solid;
+}
+td:nth-child(3n) {
+    border-right: solid ;
+}
+tr:first-child {
+    border-top: solid;
+}
+tr:nth-child(3n) td {
+    border-bottom: solid ;
+}
+
+.numInput {
+    height: 100%;
+    width: 90%;
+    font-size: 24px;
+    text-align: center;
+
+}
+
+#result {
+    text-align: center;
+}

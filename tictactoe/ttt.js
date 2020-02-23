@@ -98,14 +98,11 @@ const newGame = () => {
         "../tictactoecursed/tttc.html",
         "../snakecursed/snakec.html",
         "../rickroll/rick.html",
-        "../clickthespot/clickthespot.html",
-        "../bouncingball.html"
+        "../clickthespot/clickthespot.html"
     ];
 
     let randomNumber = Math.floor(Math.random() * hrefs.length);
-    console.log(randomNumber);
     var nextGame = hrefs[randomNumber];
-    console.log(nextGame);
 
     window.location.href = nextGame;
 }
