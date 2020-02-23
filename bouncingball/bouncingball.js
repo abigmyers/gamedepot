@@ -43,10 +43,21 @@ function bounce() {
 function checkClick(event) {
     if (Math.abs(event.clientX - ball.x) < ball.size && Math.abs(event.clientY - ball.y) < ball.size) {
         const hrefs = [
-            "../rockpaperscissors/rps.html",
+            "../2048/2048.html",
+            "../boingyball/boingyball.html",
+            "../bouncingball/bouncingball.html",
+            "../clickthespot/clickthespot.html",
+            "../nonogram/nono.html",
+            "../ohhi/ohhi.html",
             "../rickroll/rick.html",
+            "../rockpaperscissors/rps.html",
+            "../rockpaperscissorscursed/rpsc.html",
             "../snake/snake.html",
-            "../clickthespot/clickthespot.html"
+            "../snakecursed/snakec.html",
+            "../sudoku/sudoku.html",
+            "../textadventure/ta.html",
+            "../tictactoe/ttt.html",
+            "../tictactoecursed/tttc.html"
         ];
 
         let randomNumber = Math.floor(Math.random() * hrefs.length);

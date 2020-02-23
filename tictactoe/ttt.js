@@ -92,13 +92,21 @@ const displayLoss = () => {
 
 const newGame = () => {
     const hrefs = [
-        "../rockpaperscissors/rps.html",
-        "../snake/snake.html",
-        "../rockpaperscissorscursed/rpsc.html",
-        "../tictactoecursed/tttc.html",
-        "../snakecursed/snakec.html",
+        "../2048/2048.html",
+        "../boingyball/boingyball.html",
+        "../bouncingball/bouncingball.html",
+        "../clickthespot/clickthespot.html",
+        "../nonogram/nono.html",
+        "../ohhi/ohhi.html",
         "../rickroll/rick.html",
-        "../clickthespot/clickthespot.html"
+        "../rockpaperscissors/rps.html",
+        "../rockpaperscissorscursed/rpsc.html",
+        "../snake/snake.html",
+        "../snakecursed/snakec.html",
+        "../sudoku/sudoku.html",
+        "../textadventure/ta.html",
+        "../tictactoe/ttt.html",
+        "../tictactoecursed/tttc.html"
     ];
 
     let randomNumber = Math.floor(Math.random() * hrefs.length);
