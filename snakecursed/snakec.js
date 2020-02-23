@@ -72,7 +72,6 @@ function loopGame() {
     if (tail > 30) {
         const hrefs = [
             "../2048/2048.html",
-            "../boingyball/boingyball.html",
             "../bouncingball/bouncingball.html",
             "../clickthespot/clickthespot.html",
             "../nonogram/nono.html",
@@ -81,7 +80,6 @@ function loopGame() {
             "../rockpaperscissors/rps.html",
             "../rockpaperscissorscursed/rpsc.html",
             "../snake/snake.html",
-            "../snakecursed/snakec.html",
             "../sudoku/sudoku.html",
             "../textadventure/ta.html",
             "../tictactoe/ttt.html",

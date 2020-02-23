@@ -51,9 +51,7 @@ function onClick(event) {
     if (distance < 25) {
         const hrefs = [
             "../2048/2048.html",
-            "../boingyball/boingyball.html",
             "../bouncingball/bouncingball.html",
-            "../clickthespot/clickthespot.html",
             "../nonogram/nono.html",
             "../ohhi/ohhi.html",
             "../rickroll/rick.html",
