@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+
+<head>
+    <title>WWH 2020</title>
+    <link rel = "stylesheet" type = "text/css" href = "nono.css" />
+    <script type="text/javascript" src="nono.js"></script>
+</head>
+
+<body>
+    <div class="table">
+        <table style="border:1px solid black;margin-left:auto;margin-right:auto;">
+            <tbody>
+                <tr>
+                    <div>
+                    <td>
+                        <img id="bean" src="bean.png" onclick="generate()"/>
+                    </td>
+                    <td id="top1">
+                        hi
+                    </td>
+                    <td id="top2">
+                        hi
+                    </td>
+                    <td id="top3">
+                        hi
+                    </td>
+                    <td id="top4">
+                        hi
+                    </td>
+                    <td id="top5">
+                        hi
+                    </td>
+                    </div>
+                </tr>
+                <tr>
+                    <td id="side1">
+                        hi
+                    </td>
+                    <td id="0,0" onclick="mark(id)">
+                        
+                    </td>
+                    <td id="0,1" onclick="mark(id)">
+                        
+                    </td>
+                    <td id="0,2" onclick="mark(id)">
+                        
+                    </td>
+                    <td id="0,3" onclick="mark(id)">
+                        
+                    </td>
+                    <td id="0,4" onclick="mark(id)">
+
+                    </td>
+                </tr>
+                <tr>
+                    <td id="side2">
+                        hi
+                    </td>
+                    <td id="1,0" onclick="mark(id)">
+                        
+                    </td>
+                    <td id="1,1" onclick="mark(id)">
+                        
+                    </td>
+                    <td id="1,2" onclick="mark(id)">
+                        
+                    </td>
+                    <td id="1,3" onclick="mark(id)">
+                       
+                    </td>
+                    <td id="1,4" onclick="mark(id)">
+
+                    </td>
+                </tr>
+                <tr>
+                    <td id="side3">
+                        hi
+                    </td>
+                    <td id="2,0" onclick="mark(id)">
+                        
+                    </td>
+                    <td id="2,1" onclick="mark(id)">
+                        
+                    </td>
+                    <td id="2,2" onclick="mark(id)">
+                        
+                    </td>
+                    <td id="2,3" onclick="mark(id)">
+                        
+                    </td>
+                    <td id="2,4" onclick="mark(id)">
+
+                    </td>
+                </tr>
+                <tr>
+                    <td id="side4">
+                        hi
+                    </td>
+                    <td id="3,0" onclick="mark(id)">
+                        
+                    </td>
+                    <td id="3,1" onclick="mark(id)">
+                        
+                    </td>
+                    <td id="3,2" onclick="mark(id)">
+                        
+                    </td>
+                    <td id="3,3" onclick="mark(id)">
+                        
+                    </td>
+                    <td id="3,4" onclick="mark(id)">
+
+                    </td>
+                </tr>
+                <tr>
+                    <td id="side5">
+                        hi
+                    </td>
+                    <td id="4,0" onclick="mark(id)">
+                            
+                    </td>
+                    <td id="4,1" onclick="mark(id)">
+                            
+                    </td>
+                    <td id="4,2" onclick="mark(id)">
+                            
+                    </td>
+                    <td id="4,3" onclick="mark(id)">
+                            
+                    </td>
+                    <td id="4,4" onclick="mark(id)">
+                            
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <h2 id="intro">This is a nonogram, the numbers next to each row or column determine 
+        how many spaces of said row or column are marked. If there is more than 
+        one number marking a row or column, then that means that there is an open
+         space in between those spaces. So if you see [2, 2], then you know the 
+         first 2 boxes and the last two boxes are filled in, and the middle is open.</h2>
+        <h1 id="startMessage">Press the bean to load a puzzle</h1>
+
+    <h3 id="button" onclick="check()">
+        Done
+    </h3>
+</body>
